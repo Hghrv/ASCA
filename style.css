@@ -1,3 +1,55 @@
+
+
+
+@media (min-width: 992px) {
+#sz{
+      display: none ;
+    
+    }
+}
+
+@keyframes sld-up {
+	0% {
+		transform: translateY(5vh);
+		opacity: 0.1 ;
+	}
+	50% {
+		transform: translateY(0);
+		opacity: 1 ;
+	}
+}
+
+.square-wrapper{
+  align-content: center ;
+  align-items: center ;
+  justify-content: center ;
+  justify-items: center ;
+
+  
+}
+
+.square {
+  
+  align-items: center;
+  
+  justify-content: center ;
+  display: box;
+  
+  
+  
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .square-animation {
+    animation: sld-up 2.5s 1;
+  }
+}
+
+
+
+
+
+
 body {
   font-family: "Poppins", sans-serif;
   color: #040000;
