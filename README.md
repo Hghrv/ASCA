@@ -1,5 +1,5 @@
 # ASCA
 Scholars association
 
-The ASCA website project is accessible via the link below:
+The ASCA website project, currently optimised for mobile phone view only, is accessible via the link below:
 https://hghrv.github.io/ASCA/
